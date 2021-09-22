@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.00aa5aeb.chunk.css",
-    "main.js": "/static/js/main.e5bd84f3.chunk.js",
-    "main.js.map": "/static/js/main.e5bd84f3.chunk.js.map",
+    "main.css": "/static/css/main.31e65037.chunk.css",
+    "main.js": "/static/js/main.46fd8877.chunk.js",
+    "main.js.map": "/static/js/main.46fd8877.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.601e126f.js",
     "runtime-main.js.map": "/static/js/runtime-main.601e126f.js.map",
     "static/js/2.a10b9424.chunk.js": "/static/js/2.a10b9424.chunk.js",
     "static/js/2.a10b9424.chunk.js.map": "/static/js/2.a10b9424.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.00aa5aeb.chunk.css.map": "/static/css/main.00aa5aeb.chunk.css.map",
+    "static/css/main.31e65037.chunk.css.map": "/static/css/main.31e65037.chunk.css.map",
     "static/js/2.a10b9424.chunk.js.LICENSE.txt": "/static/js/2.a10b9424.chunk.js.LICENSE.txt",
     "static/media/calculadora.bb4e2d8d.jpg": "/static/media/calculadora.bb4e2d8d.jpg",
     "static/media/flappyBird.b39edd0e.jpg": "/static/media/flappyBird.b39edd0e.jpg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.601e126f.js",
     "static/js/2.a10b9424.chunk.js",
-    "static/css/main.00aa5aeb.chunk.css",
-    "static/js/main.e5bd84f3.chunk.js"
+    "static/css/main.31e65037.chunk.css",
+    "static/js/main.46fd8877.chunk.js"
   ]
 }

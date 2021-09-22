@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/flappyAltered.css">
+</head>
+
+<body class="conteudo">
+    <h1>Flappy Bird</h1>
+    <div wm-flappy>
+        <div id="pause-button">
+            <img src="imgs/configIcon.jpg" alt="">
+        </div>
+        <div id="pause">
+            <div id="pause-options">
+                <button id="unpause" class="play-button">RESUME</button>
+                <button id="background-select">CHANGE BACKGROUND</button>
+                <button id="info-button">INFO</button>
+            </div>
+            <div id="info">
+                <button id="go-back">
+                    <img src="imgs/arrow.png" alt="">
+                </button>
+                <div>
+                    Project by EOG <br>
+                    For the code of this and other projects, visit: <br>
+                </div>
+                 <a href="https://github.com/lgcaetano">'https://github.com/lgcaetano'</a>
+            </div>
+            <div id="background-menu">
+                <div class="option">
+                    <img src="" alt="a">
+                </div>
+                <div class="option">
+                    <img src="" alt="a">
+                </div>
+                <div class="option">
+                    <img src="" alt="a">
+                </div>
+                <div class="option">
+                    <img src="" alt="a">
+                </div>
+                <div class="option">
+                    <img src="" alt="a">
+                </div>
+            </div>
+            <div id="pause-menu"></div>
+        </div>
+        <div id="start-menu">
+            <div id="logo">
+                <img src="imgs/flappy-bird-logo.png" alt="">
+            </div>
+            <button class="play-button">PLAY</button>
+            <div id="instructions">Click the mouse to go Up!</div>
+        </div>
+        <div id="restart-menu" >
+            <div id="score"></div>
+            <div id="replay" class="play-button">REPLAY</div>
+        </div>
+        <div id="scoreboard">0</div>
+        <div id="recordboard">RECORD: 0</div>
+        <div id="bird">
+            <img src="imgs/passaro.png" alt="">
+        </div>
+        <div id="background">
+            <div class="background-panel">
+                <img src="imgs/background1.jpg" alt="">
+            </div>
+            <div class="background-panel">
+                <img src="imgs/background1.jpg" alt="">
+            </div>
+        </div>
+        <div id="obstacles">
+            <div class="obstacle-panel" id="initial"></div>
+            <div class="obstacle-panel">
+                <div class="tunnel-gap">
+                    <div class="tunnel">
+                        <div class="cap"></div>
+                        <div class="tunnel-body"></div>
+                        <div class="cap"></div>
+                    </div>
+                    <div class="tunnel">
+                        <div class="cap"></div>
+                        <div class="tunnel-body"></div>
+                        <div class="cap"></div>
+                    </div>
+                </div>
+                <div class="tunnel-gap">
+                    <div class="tunnel">
+                        <div class="cap"></div>
+                        <div class="tunnel-body"></div>
+                        <div class="cap"></div>
+                    </div>
+                    <div class="tunnel">
+                        <div class="cap"></div>
+                        <div class="tunnel-body"></div>
+                        <div class="cap"></div>
+                    </div>
+                </div>
+                <div class="tunnel-gap">
+                    <div class="tunnel">
+                        <div class="cap"></div>
+                        <div class="tunnel-body"></div>
+                        <div class="cap"></div>
+                    </div>
+                    <div class="tunnel">
+                        <div class="cap"></div>
+                        <div class="tunnel-body"></div>
+                        <div class="cap"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="obstacle-panel">
+                <div class="tunnel-gap">
+                    <div class="tunnel">
+                        <div class="cap"></div>
+                        <div class="tunnel-body"></div>
+                        <div class="cap"></div>
+                    </div>
+                    <div class="tunnel">
+                        <div class="cap"></div>
+                        <div class="tunnel-body"></div>
+                        <div class="cap"></div>
+                    </div>
+                </div>
+                <div class="tunnel-gap">
+                    <div class="tunnel">
+                        <div class="cap"></div>
+                        <div class="tunnel-body"></div>
+                        <div class="cap"></div>
+                    </div>
+                    <div class="tunnel">
+                        <div class="cap"></div>
+                        <div class="tunnel-body"></div>
+                        <div class="cap"></div>
+                    </div>
+                </div>
+                <div class="tunnel-gap">
+                    <div class="tunnel">
+                        <div class="cap"></div>
+                        <div class="tunnel-body"></div>
+                        <div class="cap"></div>
+                    </div>
+                    <div class="tunnel">
+                        <div class="cap"></div>
+                        <div class="tunnel-body"></div>
+                        <div class="cap"></div>
+                    </div>          
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/flappyAltered.js"></script>
+</body>
+
+</html>     
