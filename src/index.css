@@ -3,14 +3,18 @@
 @font-face {font-family: "Helvetica Neue"; src: url("//db.onlinewebfonts.com/t/899514ebd390e894ad403011515cde6f.eot"); src: url("//db.onlinewebfonts.com/t/899514ebd390e894ad403011515cde6f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/899514ebd390e894ad403011515cde6f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/899514ebd390e894ad403011515cde6f.woff") format("woff"), url("//db.onlinewebfonts.com/t/899514ebd390e894ad403011515cde6f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/899514ebd390e894ad403011515cde6f.svg#Helvetica Neue") format("svg"); }
 
 *{
-  font-family: 'Helvetica Neue'
+  font-family: 'Helvetica Neue';
+  text-decoration: none;
+  /* color: black; */
 }
 
 body{
   height: 100vh;
   margin: 0;
   position: relative;
+  /* background-image: linear-gradient(to right, lightgreen, navy); */
 }
+
 #introductory-panel{
   display: flex;
   flex-direction: column;
@@ -46,6 +50,7 @@ body{
   left: 2.5%;
   padding: 10%;
   top: -100px;
+  background: white;
 }
 
 #main-panel > * {
@@ -111,3 +116,65 @@ body{
   position: relative;
 }
 
+#project-panel{
+  width: 100%;
+  background-image: linear-gradient(to right, lightgreen, navy);
+  position: relative;
+  top: -150px;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.project-card{
+  position: relative;
+  height: 250px;
+  width: 130px;
+  /* border: 2px solid black; */
+  border-radius: 20px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px;
+  color: black;
+  transition: 300ms;
+  /* text-justify: distribute;   */
+}
+
+.project-card:hover{
+  height: calc(250px*1.2);
+  width: calc(130px*1.2);
+}
+
+.image-container{
+  height: 40%;
+  width: 90%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border: 1px solid lightgrey;
+}
+
+.project-card img{
+  height: 100%;
+  /* width: 80%; */
+}
+
+#project-card-grid{
+  /* margin: auto; */
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  place-items: center;
+
+}
+
+.project-description{
+  font-size: 0.75em;
+  font-weight: bold;
+}
