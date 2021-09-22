@@ -4,8 +4,13 @@ import calculadora from '../imgs/calculadora.jpg'
 import flappyBird from '../imgs/flappyBird.jpg'
 import projetoGaleria from '../imgs/projetoGaleria.jpg'
 import sudokuSolver from '../imgs/sudokuSolver.jpg'
-import { Router } from "react-router";
-import { Link } from 'react-router-dom'
+// // import { Router } from "react-router"
+// import {
+//     BrowserRouter as Router,
+//     Switch,
+//     Route,
+//     Link
+//   } from "react-router-dom";
 
 
 
@@ -31,9 +36,9 @@ export default class ProjectCard extends Component{
 
 
     render(){
-        return <a href={`/src/apps/${this.props.projectName}/index.js`}>
+        return <a href={`/apps/${this.props.projectName}/index.html`}>
             <div className="project-card">
-                    <b>{this.props.projectName}</b>
+                <b>{this.props.projectName}</b>
                 <div className="image-container">
                     <img src={this.imageSrc} alt="" />
                 </div>
