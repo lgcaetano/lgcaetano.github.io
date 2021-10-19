@@ -230,6 +230,6 @@ iframe{
 
   #profile-pic-container{
     position: relative;
-    top: calc(8vh - 50px)
+    top: calc(12vh - 50px)
   }
 }
