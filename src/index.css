@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 *{
-  font-family: 'Oswald';
+  font-family: 'Nunito Sans';
   text-decoration: none;
   /* color: black; */
   /* background-image: ; */
@@ -52,6 +52,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 #main-panel{
@@ -60,6 +61,7 @@ body{
   width: 100%;
   z-index: 1;
   justify-content: space-around;
+  align-items: center;
   position: relative;
   /* left: 2.5%; */
   padding-top: 10%;
@@ -75,8 +77,12 @@ body{
 }
 
 #skills-container{
+  position: relative;
+  /* top: -20%; */
+  font-size: 0.8em;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -204,17 +210,18 @@ iframe{
 }
 
  
-@media (max-width: 900px){
+@media (max-width: 700px){
   #main-panel{
     /* top: -100px; */
-    height: 80vh;
+    height: 120vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
   #main-panel > *{
+    margin: 0%;
     width: 90%;
-    height: 40%;
+    height: 30%;
   }
   #project-card-grid{
     grid-template-columns: 1fr;
