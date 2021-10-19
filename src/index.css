@@ -1,12 +1,17 @@
 @import url(//db.onlinewebfonts.com/c/899514ebd390e894ad403011515cde6f?family=Helvetica+Neue);@import url(//db.onlinewebfonts.com/c/899514ebd390e894ad403011515cde6f?family=Helvetica+Neue);
 
 @font-face {font-family: "Helvetica Neue"; src: url("//db.onlinewebfonts.com/t/899514ebd390e894ad403011515cde6f.eot"); src: url("//db.onlinewebfonts.com/t/899514ebd390e894ad403011515cde6f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/899514ebd390e894ad403011515cde6f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/899514ebd390e894ad403011515cde6f.woff") format("woff"), url("//db.onlinewebfonts.com/t/899514ebd390e894ad403011515cde6f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/899514ebd390e894ad403011515cde6f.svg#Helvetica Neue") format("svg"); }
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 *{
-  font-family: 'Helvetica Neue';
+  font-family: 'Oswald';
   text-decoration: none;
   /* color: black; */
   /* background-image: ; */
+}
+
+:root{
+  --background-gradient: linear-gradient(to right, purple, rgb(0, 22, 68));
 }
 
 button{
@@ -19,7 +24,7 @@ body{
   height: 100vh;
   margin: 0;
   position: relative;
-  background-image: linear-gradient(to right, lightgreen, navy);
+  background-image: var(--background-gradient);
 }
 
 #introductory-panel{
@@ -38,7 +43,7 @@ body{
   height: 30%;
   /* height:0px; */
   z-index: 0;
-  background-image: linear-gradient(to right, lightgreen, navy);
+  background-image: var(--background-gradient);
   text-align: center;
   /* clip-path: polygon(0% 0%, 0% 100%, 100% 50%, 100% 0% ); */
 }
@@ -96,11 +101,11 @@ body{
   height: 5px;
   width: 30px;
   margin: 2px;
-  background: lightgreen;
+  background: rgb(183, 1, 255);
 }
 
 .star-activated{
-  background: lime;
+  background: rgb(102, 0, 128);
 }
 
 #profile-pic-container{
@@ -129,7 +134,7 @@ body{
 
 #project-panel{
   width: 100%;
-  background-image: linear-gradient(to right, lightgreen, navy);
+  background-image: var(--background-gradient);
   position: relative;
   top: -250px;
   color: white;
@@ -179,7 +184,7 @@ body{
   /* margin: auto; */
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   place-items: center;
 
