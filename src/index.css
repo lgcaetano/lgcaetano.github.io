@@ -151,7 +151,7 @@ body{
 .project-card{
   position: relative;
   height: 250px;
-  width: 130px;
+  width: 150px;
   /* border: 2px solid black; */
   border-radius: 20px;
   background: white;
@@ -163,12 +163,13 @@ body{
   margin: 30px;
   color: black;
   transition: 300ms;
+  box-shadow: 0 0 10px 10px rgb(45, 0, 54);
   /* text-justify: distribute;   */
 }
 
 .project-card:hover{
-  height: calc(250px*1.2);
-  width: calc(130px*1.2);
+  height: calc(250px*1.05);
+  width: calc(150px*1.05);
   text-decoration: none;
 }
 
@@ -179,10 +180,13 @@ body{
   display: flex;
   justify-content: center;
   border: 1px solid lightgrey;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .project-card img{
-  height: 100%;
+  min-height: 100%;
+  /* min-width: 100%; */
   /* width: 80%; */
 }
 
@@ -232,4 +236,8 @@ iframe{
     position: relative;
     top: calc(12vh - 50px)
   }
+}
+
+.card-link{
+  margin: auto;
 }

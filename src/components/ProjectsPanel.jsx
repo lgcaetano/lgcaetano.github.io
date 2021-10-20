@@ -20,6 +20,7 @@ export default class ProjectsPanel extends Component{
             <div id="project-card-grid">
                 <ProjectCard projectName="sudoku" clickFunction={src => this.handleClick(src)}></ProjectCard>
                 <ProjectCard projectName="countries" clickFunction={src => this.handleClick(src)}></ProjectCard>
+                <ProjectCard projectName="rps" clickFunction={src => this.handleClick(src)}></ProjectCard>
                 <ProjectCard projectName="cadastro" clickFunction={src => this.handleClick(src)}></ProjectCard>
                 <ProjectCard projectName="flappyBird" clickFunction={src => this.handleClick(src)}></ProjectCard>
                 <ProjectCard projectName="calculadora" clickFunction={src => this.handleClick(src)}></ProjectCard>
