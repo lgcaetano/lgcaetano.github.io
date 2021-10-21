@@ -286,7 +286,7 @@ iframe{
   height: 70px;
   box-shadow: 0px 0px 10px 2px var(--glow-end);
   padding-left: 5vw;
-  padding-right: 50px;
+  padding-right: 5vw;
   z-index: 30000;
   display: flex;
   justify-content: flex-start;
