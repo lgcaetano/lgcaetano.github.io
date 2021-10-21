@@ -54,7 +54,7 @@ export default class ProjectCard extends Component{
     render(){
         return <a href={`https://lgcaetano${this.props.projectName}.netlify.app`} className="card-link">
             <div className="project-card">
-                <b>{this.titlesObject[this.props.projectName]}</b>
+                <b className="special-neon">{this.titlesObject[this.props.projectName]}</b>
                 <div className="image-container">
                     <img src={this.imageSrc} alt="" />
                 </div>
