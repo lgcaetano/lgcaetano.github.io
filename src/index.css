@@ -447,10 +447,6 @@ iframe{
    top: calc(12vh - 50px)
  }
 
- .links-container{
-   padding-right: 50px;
- }
-
  .clip{
    flex-direction: column;
    padding-top: 40%;
