@@ -5,7 +5,7 @@ import TechSkill from "./TeckSkill";
 export default class Skills extends Component{
     render(){
         return <div id="skills-container">
-            <h3>Skills:</h3>
+            <h2>Skills:</h2>
             <TechSkill skill="English" skillValue={5}></TechSkill>
             <TechSkill skill="JavaScript" skillValue={4}></TechSkill>
             <TechSkill skill="CSS" skillValue={4}></TechSkill>

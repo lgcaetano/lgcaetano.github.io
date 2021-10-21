@@ -16,7 +16,7 @@ export default class ProjectsPanel extends Component{
 
     render(){
         return <div id="project-panel">
-            <h1>My Projects</h1>
+            <h1 className="barlow glowing-text">My Projects</h1>
             <div id="project-card-grid">
                 <ProjectCard projectName="sudoku" clickFunction={src => this.handleClick(src)}></ProjectCard>
                 <ProjectCard projectName="countries" clickFunction={src => this.handleClick(src)}></ProjectCard>

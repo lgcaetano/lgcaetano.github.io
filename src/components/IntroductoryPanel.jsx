@@ -5,10 +5,9 @@ export default class IntroductoryPanel extends Component{
     render(){
         return <div id="introductory-container">
                 <div id="introductory-panel">
-                    <h1>Luis Gabriel Caetano Diniz</h1>
-                    <h2>Front-End Software Developer</h2> <br />
-                    <hr />
-                    <h3>Portfolio</h3>
+                    <h1 className="glowing-text barlow">Luis Gabriel Caetano Diniz</h1>
+                    <h2 className="glowing-text barlow">Front-End Software Developer</h2> <br />
+                    <h3 className="glowing-text barlow">Portfolio</h3>
             </div>
         </div>
     }
