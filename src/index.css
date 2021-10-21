@@ -12,13 +12,6 @@
   src: url('./fonts/NeonDerthaw\ Regular.ttf') format('truetype');
 }
 
-*{
-  font-family: 'Barlow Semi Condensed';
-  text-decoration: none;
-  /* color: black; */
-  /* background-image: ; */
-}
-
 @keyframes glow-text {
   0%{
     text-shadow: 0 0 30px var(--glow-start);
@@ -66,6 +59,12 @@
   --contact-height: 300px;
 }
 
+*{
+  text-decoration: none;
+  /* color: black; */
+  /* background-image: ; */
+}
+
 button{
   background: transparent;
   border: 0;
@@ -77,6 +76,7 @@ button{
 
 
 body{
+  font-family: 'Barlow Semi Condensed';
   height: 100vh;
   margin: 0;
   position: relative;
