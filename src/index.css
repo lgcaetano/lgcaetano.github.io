@@ -416,7 +416,7 @@ iframe{
   flex-direction: column;
   justify-content: space-around;
   font-size: medium;
-  /* align-items: center; */
+  align-items: center;
 }
 
 
