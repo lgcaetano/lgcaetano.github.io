@@ -50,9 +50,10 @@
 
 :root{
   --background-gradient: linear-gradient(to right, rgb(9, 0, 15), rgb(21, 0, 29));
+  --card-gradient: linear-gradient(to right, rgb(20, 20, 20), rgb(40, 40, 40));
   --glow-start: rgb(205, 0, 223);
   --glow-end-2: rgb(138, 0, 173);
-  --glow-end: rgb(59, 255, 150);
+  --glow-end: rgb(38, 255, 139);
   --path: polygon(0% 20%, 100% 0%, 100% 80%, 0% 100%);
   --title-gradient: linear-gradient(to right, var(--glow-start), var(--glow-end-2));
   --cool-gradient: linear-gradient(to right, var(--glow-start), var(--glow-end));
@@ -211,14 +212,14 @@ body{
   width: 150px;
   /* border: 2px solid black; */
   border-radius: 20px;
-  background: white;
+  background: var(--card-gradient);
   display: flex;
   flex-direction: column;
   padding: 20px;
   justify-content: space-around;
   align-items: center;
   margin: 30px;
-  color: black;
+  color: white;
   transition: 300ms;
   box-shadow: 0 0 30px 10px var(--glow-end);
   animation: card-glow;
@@ -262,7 +263,6 @@ body{
 
 .project-description{
   font-size: 0.75em;
-  font-weight: bold;
 }
 
 
@@ -433,7 +433,7 @@ iframe{
 }
 
 .special-neon{
-  font-family: 'Neonderthaw';
+  font-family: 'Oswald';
 }
 
 
