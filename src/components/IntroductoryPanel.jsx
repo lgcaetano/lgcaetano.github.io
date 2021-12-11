@@ -7,7 +7,7 @@ export default class IntroductoryPanel extends Component{
                 <div id="introductory-panel">
                     <h1 className="glowing-text barlow">Luis Gabriel Caetano Diniz</h1>
                     <h2 className="glowing-text barlow">Front-End Software Developer</h2> <br />
-                    <h1 className="glowing-text barlow special-neon">Portfolio</h1>
+                    <h1 className="glowing-text barlow special-neon cursive">Portfolio</h1>
             </div>
         </div>
     }
