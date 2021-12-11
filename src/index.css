@@ -58,7 +58,7 @@ a{
   --glow-start: rgb(205, 0, 223);
   --glow-end-2: rgb(138, 0, 173);
   --glow-end: rgb(38, 255, 139);
-  --path: polygon(0% 20%, 100% 0%, 100% 80%, 0% 100%);
+  --path: polygon(0% 80px, 100% 0%, 100% calc(100% - 80px), 0% 100%);
   --title-gradient: linear-gradient(to right, var(--glow-start), var(--glow-end-2));
   --cool-gradient: linear-gradient(to right, var(--glow-start), var(--glow-end));
   --contact-height: 300px;
@@ -400,16 +400,18 @@ iframe{
 .mail-box{
   height: var(--contact-height);
   width: 40%;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
-.mail-box *{
+.mail-box input, .mail-box textarea{
   width: 100%;
-  padding: 5px;
+  padding: 3px;
   border: 2px solid var(--glow-end-2);
+  margin:  5px 0px;
   border-radius: 8px;
   font-family: 'Barlow Semi Condensed';
   font-size: large;
@@ -417,7 +419,7 @@ iframe{
   outline: none;
 }
 
-.mail-box *:focus{
+.mail-box input:focus, .mail-box textarea:focus{
   outline: none;
   border: 2px solid var(--glow-end);
 }
@@ -502,4 +504,9 @@ iframe{
 
 .extra-icon{
   font-size: 4rem;
+}
+
+.callback-message{
+  display: flex;
+  justify-content: center;
 }
