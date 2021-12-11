@@ -1,6 +1,7 @@
 import React from "react";
 import { Component } from "react";
 import ProjectCard from "./ProjectCard";
+import Certification from "./Certification";
 
 export default class ProjectsPanel extends Component{
 
@@ -16,6 +17,11 @@ export default class ProjectsPanel extends Component{
 
     render(){
         return <div id="project-panel">
+            <h1 className="barlow glowing-text">Certifications</h1>
+            <div className="certifications">
+                <Certification provider={"FCC"} name={"ADS"}></Certification>
+                <Certification provider={"FCC"} name={"FEL"}></Certification>
+            </div>
             <h1 className="barlow glowing-text">My Projects</h1>
             <div id="project-card-grid">
                 <ProjectCard projectName="sudoku" clickFunction={src => this.handleClick(src)}></ProjectCard>
