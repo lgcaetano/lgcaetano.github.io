@@ -19,7 +19,11 @@ export default class ProjectCard extends Component{
     imagesObject = { calculadora, flappyBird, galeria, sudoku, 
         cadastro: "https://d33wubrfki0l68.cloudfront.net/616e1efaa6a3d37f46c8073e/screenshot_2021-10-19-01-29-19-0000.png",
         countries: "https://d33wubrfki0l68.cloudfront.net/616e0cdfad504960c1379adc/screenshot_2021-10-19-00-11-19-0000.png",
-        rps: "https://d33wubrfki0l68.cloudfront.net/616f627e586e7000083bd75b/screenshot_2021-10-20-00-28-29-0000.png"
+        rps: "https://d33wubrfki0l68.cloudfront.net/616f627e586e7000083bd75b/screenshot_2021-10-20-00-28-29-0000.png",
+        pomodori: 'https://d33wubrfki0l68.cloudfront.net/61b416a82d6bcc3bd5095b91/screenshot_2021-12-11-03-12-33-0000.png',
+        drums: 'https://d33wubrfki0l68.cloudfront.net/61b416029069c64dcd705d7d/screenshot_2021-12-11-03-08-44-0000.png',
+        quotes: 'https://d33wubrfki0l68.cloudfront.net/61b419733aaf6600089c4995/screenshot_2021-12-11-03-22-57-0000.png',
+        markdown: 'https://d33wubrfki0l68.cloudfront.net/61b41687695b2e37b2623d24/screenshot_2021-12-11-03-11-24-0000.png',
     }
 
     descriptionsObject = {
@@ -29,7 +33,11 @@ export default class ProjectCard extends Component{
         calculadora: 'A browser based clone of the MacOS native calculator app.',
         countries: 'A site that provides information about every country in the world with the help of an API and also provides a flag quiz so that you can test your geography knowledge!',
         cadastro: 'A site that allows users to be created, read, updated and deleted (CRUD) in the context of a database with the help of a Firebase backend',
-        rps: 'A site where you can play the game Rock, Paper, Scissors, Lizard, Spock from the sitcom The Big Bang Theory'
+        rps: 'A site where you can play the game Rock, Paper, Scissors, Lizard, Spock from the sitcom The Big Bang Theory',
+        pomodori: 'A site made to help you with your studies! It allows you to set timers for your study sessions and breaks',
+        drums: 'A miniature synthesizer, an application that allows you to play sounds and create your own music',
+        quotes: 'Need a subtitle for your Instagram post? This site will give you an inspirational quote on demand!',
+        markdown: 'This site allows you to preview how your markdown text will look like.'
     }
 
     titlesObject = {
@@ -40,6 +48,10 @@ export default class ProjectCard extends Component{
         countries: "Countries Wiki",
         cadastro: "Registration System",
         rps: "Rock, Paper, Scissors, Lizard, Spock",
+        pomodori: "Pomodori Clock",
+        drums: "Drum Machine",
+        quotes: "Random Quote Generator",
+        markdown: "Markdown Previewer"
     }
 
 
