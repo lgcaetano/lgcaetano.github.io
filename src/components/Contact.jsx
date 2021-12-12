@@ -1,7 +1,7 @@
 import { init } from "emailjs-com"
 import emailjs from "emailjs-com"
 import { useState } from "react"
-import { BeatLoader, PuffLoader } from "react-spinners"  
+import { PuffLoader } from "react-spinners"  
 
 console.log(emailjs)
 

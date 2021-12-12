@@ -82,6 +82,7 @@ body{
   font-family: 'Barlow Semi Condensed';
   overflow-x: hidden;
   height: auto;
+  width: 100vw;
   margin: 0;
   position: relative;
   background-image: var(--background-gradient);
@@ -125,8 +126,9 @@ body{
   align-items: center;
   position: relative;
   /* left: 2.5%; */
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding: 10% 0%;
+  /* padding-top: 10%;
+  padding-bottom: 10%; */
   top: -100px;
   background: white;
   clip-path: var(--path);
@@ -302,7 +304,7 @@ iframe{
   background: var(--background-gradient);
   height: 70px;
   box-shadow: 0px 0px 10px 2px var(--glow-end);
-  padding-left: 3vw;
+  padding-left: 5vw;
   padding-right: 3vw;
   z-index: 30000;
   display: flex;
@@ -321,11 +323,11 @@ iframe{
 
 
 .fab{
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .fas{
-  margin-right: 5px;
+  margin-right: 3px;
 }
 
 .nav-glow{
@@ -445,7 +447,7 @@ iframe{
 
 
 
-@media (max-width: 700px){
+@media (max-width: 750px){
   #introductory-panel{
     margin-bottom: 0;
   }
@@ -455,6 +457,8 @@ iframe{
    flex-direction: column;
    align-items: center;
    justify-content: center;
+   padding-left: 3%;
+   padding-right: 3%;
  }
  #main-panel > *{
    margin: 0%;
@@ -464,11 +468,6 @@ iframe{
  #project-card-grid{
    grid-template-columns: 1fr;
    grid-template-rows: 1fr 1fr 1fr 1fr;
- }
-
- #profile-pic-container{
-   position: relative;
-   top: calc(12vh - 50px)
  }
 
  .clip{
@@ -484,6 +483,14 @@ iframe{
 
  .fas{
    font-size: 20px;
+ }
+
+ .certifications{
+   flex-direction: column;
+ }
+
+ .cursive{
+   opacity: 0;
  }
 }
 
@@ -509,4 +516,12 @@ iframe{
 .callback-message{
   display: flex;
   justify-content: center;
+}
+
+.fa-js{
+  color: yellow;
+}
+
+.fa-react{
+  color: aqua;
 }

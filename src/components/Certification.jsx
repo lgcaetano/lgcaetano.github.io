@@ -14,8 +14,8 @@ const urls = {
 
 
 const additionalIcons = {
-    "FEL": <i class="fab fa-react extra-icon"></i>,
-    "ADS": <i class="fab fa-js extra-icon"></i>,
+    "FEL": <i className="fab fa-react extra-icon"></i>,
+    "ADS": <i className="fab fa-js extra-icon"></i>,
 }
 
 

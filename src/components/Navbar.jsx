@@ -16,10 +16,10 @@ export default function Navbar(){
                     <i className="fab fa-instagram"></i>
                 </a>
                 <a href="https://api.whatsapp.com/send?phone=5531982010404&text=Luis%20Gabriel" className="nav-link nav-glow">
-                    <i class="fab fa-whatsapp"></i>
+                    <i className="fab fa-whatsapp"></i>
                 </a>
                 <a href="https://github.com/lgcaetano" className="nav-link nav-glow">
-                    <i class="fab fa-github"></i>
+                    <i className="fab fa-github"></i>
                 </a>
                 <div className="gap"></div>
                 <Link to="/" className={`nav-glow simple-link ${location.pathname === "/" ? "cur-route" : ""}`}>
