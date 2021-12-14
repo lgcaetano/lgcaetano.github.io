@@ -4,18 +4,21 @@ const icons = {
 
 const names = {
     "ADS": "Javscript Algorithms and Data Structures Certification",
-    "FEL": "Front End Development Libraries Certification"
+    "FEL": "Front End Development Libraries Certification",
+    "BEA": "Back End Development and APIs Developer Certification"
 }
 
 const urls = {
     "ADS": "https://www.freecodecamp.org/certification/lgcaetano/javascript-algorithms-and-data-structures",
-    "FEL": "https://www.freecodecamp.org/certification/lgcaetano/front-end-development-libraries"
+    "FEL": "https://www.freecodecamp.org/certification/lgcaetano/front-end-development-libraries",
+    "BEA": "https://www.freecodecamp.org/certification/lgcaetano/back-end-development-and-apis"
 }
 
 
 const additionalIcons = {
     "FEL": <i className="fab fa-react extra-icon"></i>,
     "ADS": <i className="fab fa-js extra-icon"></i>,
+    "BEA": <i className="fab fa-node-js"></i>
 }
 
 

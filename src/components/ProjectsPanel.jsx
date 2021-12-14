@@ -21,6 +21,7 @@ export default class ProjectsPanel extends Component{
             <div className="certifications">
                 <Certification provider={"FCC"} name={"ADS"}></Certification>
                 <Certification provider={"FCC"} name={"FEL"}></Certification>
+                <Certification provider={"FCC"} name={"BEA"}></Certification>
             </div>
             <h1 className="barlow glowing-text">My Projects</h1>
             <div id="project-card-grid">
