@@ -4,13 +4,6 @@ import calculadora from '../imgs/calculadora.jpg'
 import flappyBird from '../imgs/flappyBird.jpg'
 import galeria from '../imgs/galeria.jpg'
 import sudoku from '../imgs/sudoku.jpg'
-// // import { Router } from "react-router"
-// import {
-//     BrowserRouter as Router,
-//     Switch,
-//     Route,
-//     Link
-//   } from "react-router-dom";
 
 
 
@@ -24,6 +17,7 @@ export default class ProjectCard extends Component{
         drums: 'https://d33wubrfki0l68.cloudfront.net/61b416029069c64dcd705d7d/screenshot_2021-12-11-03-08-44-0000.png',
         quotes: 'https://d33wubrfki0l68.cloudfront.net/61b419733aaf6600089c4995/screenshot_2021-12-11-03-22-57-0000.png',
         markdown: 'https://d33wubrfki0l68.cloudfront.net/61b41687695b2e37b2623d24/screenshot_2021-12-11-03-11-24-0000.png',
+        blogr: 'https://d33wubrfki0l68.cloudfront.net/61e7413aa2aebd007993d3b1/screenshot_2022-01-18-22-37-53-0000.png',
     }
 
     descriptionsObject = {
@@ -37,7 +31,8 @@ export default class ProjectCard extends Component{
         pomodori: 'A site made to help you with your studies! It allows you to set timers for your study sessions and breaks',
         drums: 'A miniature synthesizer, an application that allows you to play sounds and create your own music',
         quotes: 'Need a subtitle for your Instagram post? This site will give you an inspirational quote on demand!',
-        markdown: 'This site allows you to preview how your markdown text will look like.'
+        markdown: 'This site allows you to preview how your markdown text will look like.',
+        blogr: 'A responsive, animated landing page for a blogging service'
     }
 
     titlesObject = {
@@ -51,7 +46,8 @@ export default class ProjectCard extends Component{
         pomodori: "Pomodori Clock",
         drums: "Drum Machine",
         quotes: "Random Quote Generator",
-        markdown: "Markdown Previewer"
+        markdown: "Markdown Previewer",
+        blogr: "Blogr Landing Page"
     }
 
 
