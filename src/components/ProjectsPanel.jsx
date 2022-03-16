@@ -15,6 +15,8 @@ export default class ProjectsPanel extends Component{
             </div>
             <h1 className="barlow glowing-text">My Projects</h1>
             <div id="project-card-grid">
+                <ProjectCard projectName="reminders"></ProjectCard>
+                <ProjectCard projectName="pokedex"></ProjectCard>
                 <ProjectCard projectName="sudoku"></ProjectCard>
                 <ProjectCard projectName="countries"></ProjectCard>
                 <ProjectCard projectName="pomodori"></ProjectCard>

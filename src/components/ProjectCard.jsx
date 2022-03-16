@@ -10,6 +10,8 @@ import sudoku from '../imgs/sudoku.jpg'
 export default class ProjectCard extends Component{
 
     imagesObject = { calculadora, flappyBird, galeria, sudoku, 
+        reminders: "https://d33wubrfki0l68.cloudfront.net/62326aeece17b600080d8612/screenshot_2022-03-16-22-57-33-0000.png",
+        pokedex: "https://d33wubrfki0l68.cloudfront.net/621ecb65f4122a0008708c91/screenshot_2022-03-02-01-42-53-0000.png",
         cadastro: "https://d33wubrfki0l68.cloudfront.net/616e1efaa6a3d37f46c8073e/screenshot_2021-10-19-01-29-19-0000.png",
         countries: "https://d33wubrfki0l68.cloudfront.net/616e0cdfad504960c1379adc/screenshot_2021-10-19-00-11-19-0000.png",
         rps: "https://d33wubrfki0l68.cloudfront.net/616f627e586e7000083bd75b/screenshot_2021-10-20-00-28-29-0000.png",
@@ -21,6 +23,8 @@ export default class ProjectCard extends Component{
     }
 
     descriptionsObject = {
+        reminders: "An application with user authentication that allows the user to create, read, update and delete scheduled appointments, wotrking as a sort of calendar",
+        pokedex: "A web application that simulates a pokedex and also includes a quiz like those ones you'd see during commercial breaks for the Pokémon show",
         sudoku: 'A web page where you can play sudoku and solve any sudoku puzzle with the help of a backtracking algorithm',
         flappyBird: 'A clone of the original game for the browser written with pure JavaScript',
         galeria: 'An online gallery project that was built as a part of a course I took on Udemy on jQuery and Bootstrap.',
@@ -36,6 +40,8 @@ export default class ProjectCard extends Component{
     }
 
     titlesObject = {
+        reminders: "Reminders CRUD",
+        pokedex: "Pokédex",
         sudoku: "Sudoku Solver",
         flappyBird: "Flappy Bird",
         galeria: "Photo Gallery",
