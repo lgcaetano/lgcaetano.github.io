@@ -10,7 +10,7 @@ export default class Skills extends Component{
             <TechSkill skill="JavaScript" skillValue={4}></TechSkill>
             <TechSkill skill="CSS" skillValue={4}></TechSkill>
             <TechSkill skill="HTML" skillValue={4}></TechSkill>
-            <TechSkill skill="React" skillValue={3}></TechSkill>
+            <TechSkill skill="React" skillValue={4}></TechSkill>
             <TechSkill skill="Node.js/Express" skillValue={3}></TechSkill>
             <TechSkill skill="Python" skillValue={3}></TechSkill>
             <TechSkill skill="Bootstrap" skillValue={2}></TechSkill>
