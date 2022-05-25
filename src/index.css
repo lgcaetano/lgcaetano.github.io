@@ -57,11 +57,12 @@ a{
   --card-gradient: linear-gradient(to right, rgb(20, 20, 20), rgb(40, 40, 40));
   --glow-start: rgb(205, 0, 223);
   --glow-end-2: rgb(138, 0, 173);
-  --glow-end: rgb(38, 255, 139);
+  --glow-end: rgb(38, 255, 119);
   --path: polygon(0% 80px, 100% 0%, 100% calc(100% - 80px), 0% 100%);
   --title-gradient: linear-gradient(to right, var(--glow-start), var(--glow-end-2));
   --cool-gradient: linear-gradient(to right, var(--glow-start), var(--glow-end));
   --contact-height: 300px;
+  --glow-animation-delay: 500ms
 }
 
 *{
@@ -215,7 +216,6 @@ body{
   position: relative;
   height: 250px;
   width: 150px;
-  /* border: 2px solid black; */
   border-radius: 20px;
   background: var(--card-gradient);
   display: flex;
@@ -225,18 +225,18 @@ body{
   align-items: center;
   margin: 30px;
   color: white;
-  transition: 300ms;
-  box-shadow: 0 0 30px 10px var(--glow-end);
-  animation: card-glow;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  /* text-justify: distribute;   */
+  transition: var(--glow-animation-delay);
 }
 
 .project-card:hover{
   height: calc(250px*1.05);
   width: calc(150px*1.05);
   text-decoration: none;
+  box-shadow: 0 0 30px 10px var(--glow-start); 
+  animation: card-glow;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-delay: var(--glow-animation-delay);
 }
 
 .image-container{
@@ -251,9 +251,15 @@ body{
 }
 
 .project-card img{
-  min-height: 100%;
+  /* min-height: 100%; */
   /* min-width: 100%; */
-  /* width: 80%; */
+  width: 100%;
+  /* height: 100%; */
+  /* object-fit: contain; */
+}
+
+.cestou{
+  object-fit: contain;
 }
 
 #project-card-grid{
@@ -502,6 +508,13 @@ iframe{
   justify-content: space-around;
 }
 
+.certificate-icon{
+  height: 20px;
+}
+
+.certificate-icon img{
+  height: 100%;
+}
 
 .icon{
   width: 100%;

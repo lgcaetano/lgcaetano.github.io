@@ -4,12 +4,13 @@ import calculadora from '../imgs/calculadora.jpg'
 import flappyBird from '../imgs/flappyBird.jpg'
 import galeria from '../imgs/galeria.jpg'
 import sudoku from '../imgs/sudoku.jpg'
+import cestou from '../imgs/cestou.png'
 
 
 
 export default class ProjectCard extends Component{
 
-    imagesObject = { calculadora, flappyBird, galeria, sudoku, 
+    imagesObject = { calculadora, flappyBird, galeria, sudoku, cestou,
         reminders: "https://d33wubrfki0l68.cloudfront.net/62326aeece17b600080d8612/screenshot_2022-03-16-22-57-33-0000.png",
         pokedex: "https://d33wubrfki0l68.cloudfront.net/621ecb65f4122a0008708c91/screenshot_2022-03-02-01-42-53-0000.png",
         cadastro: "https://d33wubrfki0l68.cloudfront.net/616e1efaa6a3d37f46c8073e/screenshot_2021-10-19-01-29-19-0000.png",
@@ -36,7 +37,8 @@ export default class ProjectCard extends Component{
         drums: 'A miniature synthesizer, an application that allows you to play sounds and create your own music',
         quotes: 'Need a subtitle for your Instagram post? This site will give you an inspirational quote on demand!',
         markdown: 'This site allows you to preview how your markdown text will look like.',
-        blogr: 'A responsive, animated landing page for a blogging service'
+        blogr: 'A responsive, animated landing page for a blogging service',
+        cestou: 'Website of Cestou™, a service built in a group of 11 peopple for ioasys Camp 2022. Cestou was elected the best project overall.'
     }
 
     titlesObject = {
@@ -53,7 +55,8 @@ export default class ProjectCard extends Component{
         drums: "Drum Machine",
         quotes: "Random Quote Generator",
         markdown: "Markdown Previewer",
-        blogr: "Blogr Landing Page"
+        blogr: "Blogr Landing Page",
+        cestou: "Cestou"
     }
 
 
@@ -66,11 +69,14 @@ export default class ProjectCard extends Component{
 
 
     render(){
-        return <a href={`https://lgcaetano${this.props.projectName}.netlify.app`} className="card-link">
+
+        const siteName = this.props.projectName === "cestou" ? "cestou" : `lgcaetano${this.props.projectName}`
+
+        return <a href={`https://${siteName}.netlify.app`} className="card-link">
             <div className="project-card">
                 <b className="special-neon">{this.titlesObject[this.props.projectName]}</b>
                 <div className="image-container">
-                    <img src={this.imageSrc} alt="" />
+                    <img src={this.imageSrc} alt="" className={this.props.projectName === "cestou" ? "cestou" : ""}/>
                 </div>
                 <div className="project-description">{this.state.description}</div>
             </div>

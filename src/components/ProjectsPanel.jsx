@@ -12,9 +12,11 @@ export default class ProjectsPanel extends Component{
                 <Certification provider={"FCC"} name={"ADS"}></Certification>
                 <Certification provider={"FCC"} name={"FEL"}></Certification>
                 <Certification provider={"FCC"} name={"BEA"}></Certification>
+                <Certification provider={"ioasys"} name={"ioasys"}></Certification>
             </div>
             <h1 className="barlow glowing-text">My Projects</h1>
             <div id="project-card-grid">
+                <ProjectCard projectName="cestou"></ProjectCard>
                 <ProjectCard projectName="reminders"></ProjectCard>
                 <ProjectCard projectName="pokedex"></ProjectCard>
                 <ProjectCard projectName="sudoku"></ProjectCard>

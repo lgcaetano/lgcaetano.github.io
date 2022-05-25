@@ -1,7 +1,10 @@
+import ProfilePic from "../imgs/Perfil.jpg"
+
+
 export default function About(){
     return <div className="clip">
         <div className="about-img">
-            <img src="https://pbs.twimg.com/profile_images/1170758946627510273/8SgXi9XN.jpg" alt="" />
+            <img src={ProfilePic} alt="" />
         </div>
         <div className="about-me">
             <h2>About me:</h2>
